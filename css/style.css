@@ -1,0 +1,223 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    font-family: 'Pacifico', cursive;    
+    color: black;
+    font-size: 14px;
+}
+
+.border{
+    border: thick solid rgb(207, 136, 240);
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.border-bottom{
+    border-bottom: thick solid rgb(207, 136, 240) ;
+}
+
+.container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+/*container-for-service*/
+.container-service{
+   max-width: 1600px; 
+   padding: 0 30px;
+   margin: 0 auto;
+}
+
+.title-1{
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.btn{
+    background-color: #070707;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 7px 22px;
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+    color: #fff;
+    font-size: 20px;
+}
+
+/*Header*/
+.header{
+    background-color: #e2e2;
+    padding-top: 35px ;
+
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 12px;
+}
+
+.logo{
+    position: relative;
+    padding: 0 12px 0 0;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000;
+    margin-left: 0px;
+}
+
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.nav-link{
+    color: #000;
+}
+ 
+.nav-link.active{
+    color:#606060
+}
+
+.header-content{
+    max-width: 350px;
+}
+
+.header-content p{
+    line-height: 2;
+    font-size: 24px;
+    text-align: left;
+}
+
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-heading{
+    padding-top: 100px ;
+    font-size: 40px; 
+    margin-bottom: 20px;
+}
+
+.header-img{
+    padding-top: 30px;
+    margin-bottom: -17px;
+    width: 290px;
+    margin-bottom: 15px;
+}
+.header-photo{
+    border-radius: 10%;
+}
+/*body*/
+.services{
+    padding: 90px 0;
+}
+
+.service-row{
+    display: flex;
+    column-gap: 50px;
+}
+
+.service-card{}
+
+.service-card h3,p{
+    text-align: center;
+    align-items: center;
+}
+
+.service-card-img{
+    margin-bottom: 30px;   
+}
+
+.service-card-title{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.service-card p{
+    line-height: 2;
+    font-size: 18px;
+}
+
+.portfolio{
+    background-color: #e2e2;
+    padding: 90px 0;
+}
+
+.portfolio-projects{
+    display: flex;
+    column-gap: 80px;
+}
+
+.portfolio-title{
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.project{
+    text-align: center;
+}
+
+.project-img{
+    width: 350px;
+    height: 500px;
+    transition: 0.6s;
+
+}
+
+.project-img:hover{
+    transform: scale(1.3);
+}
+
+/*Footer*/
+.contacts{
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-title{
+    margin-bottom: 40px;
+}   
+
+.contacts-content{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contacts-button{
+    margin-bottom: 80px;
+    display: none;
+}
+
+/*button*/
+.btn:hover, .btn:focus{
+    background-color: #323232;
+
+}
+
+.btn:active{
+    background-color: #000;
+    position: relative;
+    top: 1px;
+}
+
+.contacts-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+}
+
+.contacts-footer{
+    color: #828282;
+}
