@@ -1,3 +1,4 @@
+/*buttonMenu-for-mobile*/
 /*const nav = document.querySelector('#nav');
 const navBtn = document.querySelector('#nav-btn');
 const navBtnImg = document.querySelector('#nav-btn-img');
@@ -9,8 +10,9 @@ navBtn.onclick = () => {
         navBtnImg.src = './img/header/menu.png';
     }
 
-}
-AOS.init();*/
+}*/
+/*start-animation-bibliotek*/ 
+/*AOS.init();*/
 
 
 
