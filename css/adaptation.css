@@ -58,6 +58,9 @@
     .project + .project{
         margin-top: 50px;
     }
+    .project-img:hover{
+        transform: none;
+    }
     
     .contacts-title{
         margin-bottom: 20px;
