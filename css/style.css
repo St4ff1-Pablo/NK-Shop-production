@@ -173,10 +173,6 @@ body{
 
 }
 
-.project-img:hover{
-    transform: scale(1.3);
-}
-
 /*Footer*/
 .contacts{
     padding: 90px 0;

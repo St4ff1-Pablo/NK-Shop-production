@@ -58,9 +58,6 @@
     .project + .project{
         margin-top: 50px;
     }
-    .project-img:hover{
-        transform: none;
-    }
     
     .contacts-title{
         margin-bottom: 20px;
@@ -77,5 +74,11 @@
     }
     .contacts-button{
         display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .project-img:hover{
+        transform: scale(1.3);
     }
 }
